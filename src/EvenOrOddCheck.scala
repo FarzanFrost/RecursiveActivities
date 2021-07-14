@@ -7,8 +7,5 @@ object EvenOrOddCheck extends App {
         else checkEven(n%2)
     }
 
-    println( checkEven(4))
-    println( checkEven(5))
-
 
 }
