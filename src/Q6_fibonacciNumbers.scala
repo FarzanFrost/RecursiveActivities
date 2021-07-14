@@ -1,12 +1,14 @@
+import scala.annotation.tailrec
 import scala.io.StdIn.readInt
 
 
-object fibonacciNumbers extends App {
+object Q6_fibonacciNumbers extends App {
 
     println("Enter a number")
     val n = readInt()
 
-    def printFibonacci( n:Int , x:Int = 0 , y:Int = 1):Unit = {
+    @tailrec
+    def printFibonacci(n:Int, x:Int = 0, y:Int = 1):Unit = {
 
         println(x)
         if (n==1)()

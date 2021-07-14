@@ -1,8 +1,10 @@
+import scala.annotation.tailrec
 
-object PrimeNumbercheck extends App {
+object Q1_PrimeNumbercheck extends App {
 
 
-    def isPrime(n:Int , i:Int = 2):Boolean = {
+    @tailrec
+    def isPrime(n:Int, i:Int = 2):Boolean = {
         n match {
             case x if x <= 1 => false
             case x if x == i => true

@@ -1,5 +1,8 @@
-object EvenOrOddCheck extends App {
+import scala.annotation.tailrec
 
+object Q4_EvenOrOddCheck extends App {
+
+    @tailrec
     def checkEven(n:Int): Boolean ={
 
         if (n == 0)true

@@ -1,7 +1,7 @@
-import PrimeNumbercheck.isPrime //reused of code from the previous question
+import Q1_PrimeNumbercheck.isPrime //reused of code from the previous question
 import scala.io.StdIn.readInt
 
-object PrintPrimeSeq extends App{
+object Q2_PrintPrimeSeq extends App{
     println("Enter A number")
     val n = readInt()
     def printPrimeNumbers(n:Int):Unit = {
