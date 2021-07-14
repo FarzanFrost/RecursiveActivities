@@ -7,7 +7,7 @@ object PrintPrimeSeq extends App{
     def printPrimeNumbers(n:Int):Unit = {
 
         if(n<=1){
-            return ()
+            ()
         }
         else{
             printPrimeNumbers(n-1);
