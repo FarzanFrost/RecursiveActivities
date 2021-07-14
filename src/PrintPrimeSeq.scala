@@ -1,4 +1,4 @@
-import PrimeNumbercheck.isPrime
+import PrimeNumbercheck.isPrime //reused of code from the previous question
 import scala.io.StdIn.readInt
 
 object PrintPrimeSeq extends App{

@@ -10,7 +10,7 @@ object fibonacciNumbers extends App {
 
         println(x)
         if (n==1)()
-        else printFibonacci(n-1 , y , x+y)
+        else printFibonacci(n-1 , y , x+y) //tail recursion
 
     }
 

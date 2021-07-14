@@ -4,7 +4,7 @@ object EvenOrOddCheck extends App {
 
         if (n == 0)true
         else if (n==1)false
-        else checkEven(n%2)
+        else checkEven(n%2) //tail recursion
     }
 
 
